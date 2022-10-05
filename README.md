@@ -66,8 +66,16 @@ If you want to read more horror stories look at the following link: https://www.
 
    - [Feature](src/test/resources/features/stringUtil.feature)   
    - [Acceptance tests](src/test/java/com/cph/testass2/string/stringUtilities/StringUtilityAcceptanceTest.java)   
-   - [Unit Tests](src/test/java/com/cph/testass2/string/stringUtilities/StringStepDefinitions)
+   - [Unit Tests](src/test/java/com/cph/testass2/string/stringUtilities/StringUtilityUnitTest.java)
    - [Implementation](src/main/java/com/cph/testass2/StringUtility.java)
+
+
+## String Service KATA
+
+   - [Feature](src/test/resources/features/stringService.feature)   
+   - [Acceptance tests](src/test/java/com/cph/testass2/string/stringService/StringServiceAcceptanceTest.java)   
+   - [Unit Tests](src/test/java/com/cph/testass2/string/stringService/StringServiceUnitTest.java)
+   - [Implementation](src/main/java/com/cph/testass2/StringService.java)
 
 ## Bowling Game KATE
 
