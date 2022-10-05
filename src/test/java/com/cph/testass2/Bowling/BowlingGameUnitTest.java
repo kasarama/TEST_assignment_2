@@ -3,7 +3,7 @@ package com.cph.testass2.Bowling;
 import com.cph.testass2.Game;
 import junit.framework.TestCase;
 
-public class BowlingGameTest extends TestCase {
+public class BowlingGameUnitTest extends TestCase {
     private Game g;
 
     protected void setUp() throws Exception {
