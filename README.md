@@ -65,7 +65,7 @@ If you want to read more horror stories look at the following link: https://www.
 ## String Utility KATA
 
    - [Feature](src/test/resources/features/stringUtil.feature)   
-   - [Acceptance tests](src/test/java/com/cph/testass2/string/stringUtilities/StringUtilityAcceptanceTest.java)   
+   - [Acceptance tests StepDefinition](src/test/java/com/cph/testass2/string/stringUtilities/StepDefinition.java)   
    - [Unit Tests](src/test/java/com/cph/testass2/string/stringUtilities/StringUtilityUnitTest.java)
    - [Implementation](src/main/java/com/cph/testass2/StringUtility.java)
 
@@ -73,7 +73,7 @@ If you want to read more horror stories look at the following link: https://www.
 ## String Service KATA
 
    - [Feature](src/test/resources/features/stringService.feature)   
-   - [Acceptance tests](src/test/java/com/cph/testass2/string/stringService/StringServiceAcceptanceTest.java)   
+   - [Acceptance tests StepDefinition](src/test/java/com/cph/testass2/string/stringService/StepDefinition.java)   
    - [Unit Tests](src/test/java/com/cph/testass2/string/stringService/StringServiceUnitTest.java)
    - [Implementation](src/main/java/com/cph/testass2/StringService.java)
 
@@ -81,7 +81,7 @@ If you want to read more horror stories look at the following link: https://www.
 
 
 - [Feature](src/test/resources/features/bowling.feature)
-- [Acceptance tests](src/test/java/com/cph/testass2/Bowling/BowlingGameAcceptanceTest.java)
+- [Acceptance tests StepDefinition](src/test/java/com/cph/testass2/Bowling/StepDefinition.java)
 - [Unit Tests](src/test/java/com/cph/testass2/Bowling/BowlingGameUnitTest.java)
 - [Implementation](src/main/java/com/cph/testass2/Game.java)
 
