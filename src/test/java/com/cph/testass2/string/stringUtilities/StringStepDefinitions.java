@@ -16,7 +16,7 @@ public class StringStepDefinitions {
     private String lowercase;
     private String invalidInput;
 
-    Exception swapException;
+    private Exception swapException;
     private StringUtility su = new StringUtility();
 
     @Given("A valid {string} input")
