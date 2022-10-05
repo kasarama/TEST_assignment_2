@@ -8,7 +8,7 @@ import io.cucumber.java.en.When;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class StringStepDefinitions {
+public class StepDefinition {
     private String validInput;
     private String swapped;
     private String reversed;
