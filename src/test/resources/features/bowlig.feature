@@ -9,22 +9,15 @@ Feature: Bowling Game
   However no more than three balls can be rolled in
   tenth frame.
 
-Background:
-   Scenario Outline: Player rolls a bowl an knocks some of the pins
-    Given A game
-    When player rolls a bowl and knocks some <amount> of the pins
+
+  Scenario Outline: Player rolls a bowl an knocks some of the pins
+    Given a game
+    When player rolls a bowl and knocks following <scores>
     Then <new> score should rise
     Examples:
-      | amount | new |
-      | 10     | 10  |
-      | 10     | 30  |
-      | 10     | 60  |
-      | 4      | 76  |
-      | 4      | 80  |
-      | 4      | 84  |
-      | 4      | 88  |
-      | 4      | 92  |
-      | 5      | 97  |
-      | 5      | 102 |
+      | scores                          | new |
+      | 10, 10, 10, 4, 4, 4, 4, 4, 5, 5 | 102 |
+      | 10, 10, 10                      | 60  |
+      | 10, 10, 10, 4, 4, 4             | 84  |
 
 
